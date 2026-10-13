@@ -380,3 +380,14 @@ EOF
 git add CHANGELOG.md
 git commit -m "changelog: record history"
 git push origin main
+# Output final info
+last_commit_short="$(git log --oneline -n1 | cut -d' ' -f1)"
+echo
+echo "Done. Repo: $REPO_URL"
+echo "Last commit (7-char): ${last_commit_short}"
+echo
+echo "Literal sentence from cybersecurity source (as included in brief.md):"
+echo 'It was found that the fix to address CVE-2021-44228 in Log4j 2.15.0 was incomplete in certain non-default configurations.'
+echo
+echo "Please verify the CVE-2021-45046 page at:"
+echo "https://logging.apache.org/log4j/2.x/security.html"
