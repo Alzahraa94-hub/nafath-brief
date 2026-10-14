@@ -3,7 +3,7 @@ NAFATH brief: cybersecurity-focused overview
 git clone https://github.com/Alzahraa94-hub/nafath-brief.git
 cd nafath-brief
 git config user.name "Alzahraa"
-git config user.email "[https://github.com/Alzahraa94-hub]"
+git config user.email "[alzahraa20011@gmail.com]"
 
 # Step 1 — Commit 1: skeleton: NAFATH-V4
 cat > brief.md <<'EOF'
